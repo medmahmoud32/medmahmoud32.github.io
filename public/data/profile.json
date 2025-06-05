@@ -1,0 +1,33 @@
+{
+    "name": "Mouhamed Mahmoud YAHYA",
+
+    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Mouhamed Mahmoud YAHYA",
+            "localized_name_stylized": " [[Med Mahmoud {{YAHYA}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Statistician economist",
+                "Data scientist engineer",
+                "Graphic designer"
+            ]
+        },
+        "fr": {
+            "localized_name": "Mouhamed Mahmoud YAHYA",
+            "localized_name_stylized": " [[Med Mahmoud {{YAHYA}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Statistician economist",
+                "Data scientist engineer",
+                "Graphic designer"
+            ]
+        }
+    }
+}
