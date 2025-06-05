@@ -1,0 +1,284 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Mouhamed Mahmoud YAHYA!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{Mouhamed Mahmoud YAHYA !}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "+222 26168988",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "fa-regular fa-address-book"
+                },
+                {
+                    "id": 2,
+                    "label": "medmahmoud32@gmail.com",
+                    "link": {"href": "mailto:medmahmoud32@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@medmahmoud32",
+                    "link": {"href": "https://github.com/medmahmoud32", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                                "text": "<p>I’m a {{statistics and data science}} engineer with [[over 3 years]] of experience across academic and industrial projects. My work spans statistical modeling, backend data processing, and real-time data systems.</p><p>I’ve led initiatives in food security monitoring, smart irrigation, and legal NLP tools in Arabic, using technologies like Python, R, SPSS, Stata, and Power BI. I also have practical experience in data engineering with MongoDB, SQL, Docker, and Scala.</p><p>Whether it’s building interactive dashboards, automating pipelines, or developing AI tools for local needs, I’m passionate about applying data to solve real-world problems — especially in developing contexts. I look forward to collaborating [[with you!]]</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Je suis ingénieur {{statistique et data science}} avec plus de [[3 ans]] d'expérience dans des projets académiques et industriels. Mon travail couvre la modélisation statistique, le traitement des données en backend, et les systèmes de données en temps réel.</p><p>J’ai dirigé des initiatives dans la surveillance de la sécurité alimentaire, l’irrigation intelligente et des outils de traitement du langage naturel en arabe, en utilisant des technologies comme Python, R, SPSS, Stata, et Power BI. J’ai également une expérience pratique en data engineering avec MongoDB, SQL, Docker et Scala.</p><p>Que ce soit pour construire des tableaux de bord interactifs, automatiser des pipelines ou développer des outils d'IA pour des besoins locaux, je suis passionné par l'application des données pour résoudre des problèmes concrets, en particulier dans les contextes en développement. J’ai hâte de collaborer [[avec vous !]]</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": " {{Reference}}"},
+                "fr": {"title": " {{Reference}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Sidi BIHA",
+                    "link": {"href": "https://linkedin.com/sidibiha", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Direoctor of [[Statistics and data science]] at [[ESP of Nouakchott]]", 
+                            "text": "To be added."
+                        },
+                        "fr": {
+                            "title": "Direoctor of [[Statistics and data science]] at [[ESP of Nouakchott]]", 
+                            "text": "To be added."}
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Abou Dieng",
+                    "link": {"href": "https://github.com/aboudieng", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "permenant tacher at  [[ESP of Nouakchott]]",
+                            "text": "'To be modified' Mouhamed Mahmoud YAHYA is a [[dedicated and talented]] student. His [[passion for data science]] and his [[ability to solve complex problems]] make him a valuable asset to any team."
+                            },
+                        "fr": {
+                        "title": "permenant tacher at  [[ESP of Nouakchott]]",
+                            "text": "'To be modified' Mouhamed Mahmoud YAHYA is a [[dedicated and talented]] student. His [[passion for data science]] and his [[ability to solve complex problems]] make him a valuable asset to any team."
+                            }
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Oumoukoulthoum Sidinne",
+                    "link": {"href": "", "tooltipString": ""},
+                    "img": "images/pictures/testimonial-person-female-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Teacher at  [[ESP of Nouakchott]]",
+                            "text": "To be added"
+                        },
+                        "fr": {
+                            "title": "Teacher at  [[ESP of Nouakchott]]",
+                            "text": "To be added"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "label": "Brice DONGMEZO",
+                    "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Creative Director at [[Dribbble]]",
+                            "text": "Mouhamed Mahmoud YAHYA's [[attention to detail]] and his [[innovative thinking]] brought a fresh perspective to our whole design process! Simply amazing!"
+                        },
+                        "fr": {
+                            "title": "Directeur Créatif chez [[Dribbble]]",
+                            "text": "L’[[attention aux détails]] et la [[pensée innovante]] de Mouhamed Mahmoud YAHYA ont apporté une perspective nouvelle à tout notre processus de design ! Simplement incroyable !"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+    "id": 4,
+    "component": "ArticleInfoList",
+    "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+    },
+    "locales": {
+        "en": {"title": "Personal {{interests}}"},
+        "fr": {"title": "Intérêts {{personnels}}"}
+    },
+    "items": [
+        {
+            "id": 1,
+            "faIcon": "fa-solid fa-video",
+            "faIconColors": {"bg": "", "fill": ""},
+            "label": null,
+            "link": {"href": null, "tooltipString": null},
+            "locales": {
+                "en": {
+                    "title": "{{AI}} video editing",
+                    "text": "Learning to use AI tools to enhance my videos."
+                },
+                "fr": {
+                    "title": "Édition vidéo avec {{IA}}",
+                    "text": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+                }
+            }
+        },
+        {
+            "id": 2,
+            "faIcon": "fa-solid fa-palette",
+            "faIconColors": {"bg": "", "fill": ""},
+            "label": null,
+            "link": {"href": null, "tooltipString": null},
+            "locales": {
+                "en": {
+                    "title": "{{Arts}} & Illustration",
+                    "text": "Practicing digital art and exploring new styles."
+                },
+                "fr": {
+                    "title": "{{Arts}} & Illustration",
+                    "text": "Pratiquer l'art numérique et explorer de nouveaux styles."
+                }
+            }
+        },
+        {
+            "id": 3,
+            "faIcon": "fa-solid fa-chart-line",
+            "faIconColors": {"bg": "", "fill": ""},
+            "label": null,
+            "link": {"href": null, "tooltipString": null},
+            "locales": {
+                "en": {
+                    "title": "{{Investing}} & Finance",
+                    "text": "Learning the basics of stocks and personal finance."
+                },
+                "fr": {
+                    "title": "{{Investissement}} & Finance",
+                    "text": "Apprendre les bases des actions et des finances personnelles."
+                }
+            }
+        },
+        {
+            "id": 4,
+            "faIcon": "fa-solid fa-window-restore",
+            "faIconColors": {"bg": "", "fill": ""},
+            "label": null,
+            "link": {"href": null, "tooltipString": null},
+            "locales": {
+                "en": {
+                    "title": "{{UX}} design",
+                    "text": "Studying user experience principles."
+                },
+                "fr": {
+                    "title": "Conception {{UX}}",
+                    "text": "Étudier les principes de l'expérience utilisateur."
+                }
+            }
+        },
+        {
+            "id": 5,
+            "img": "",
+            "faIcon": "fa-solid fa-camera-retro",
+            "faIconColors": {"bg": "", "fill": ""},
+            "label": null,
+            "link": {"href": null, "tooltipString": null},
+            "locales": {
+                "en": {
+                    "title": "{{Photography}} & Photoshop",
+                    "text": "Enhancing photos through creative editing techniques."
+                },
+                "fr": {
+                    "title": "{{Photographie}} & Photoshop",
+                    "text": "Améliorer des photos avec des techniques de montage créatives."
+                }
+            }
+        },
+        {
+            "id": 6,
+            "faIcon": "fa-solid fa-drum-steelpan",
+            "faIconColors": {"bg": "", "fill": ""},
+            "label": null,
+            "link": {"href": null, "tooltipString": null},
+            "locales": {
+                "en": {
+                    "title": "Playing {{drums}}",
+                    "text": "Exploring different genres and improving my skills."
+                },
+                "fr": {
+                    "title": "Jouer de la {{batterie}}",
+                    "text": "Explorer différents genres et améliorer mes compétences."
+                }
+            }
+        }
+    ]
+}
+
+    ]
+}
