@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/' : '/medmahmoud32/', // 👈 Key change
+  base: '/', // ✅ Correct for GitHub user sites
   plugins: [react()],
   build: {
     rollupOptions: {
@@ -19,7 +19,12 @@ export default defineConfig(({ mode }) => ({
   css: {
     preprocessorOptions: {
       scss: {
-        silenceDeprecations: ["mixed-decls", "color-functions", "global-builtin", "import"],
+        silenceDeprecations: [
+          "mixed-decls",
+          "color-functions",
+          "global-builtin",
+          "import"
+        ],
       },
     },
   },
